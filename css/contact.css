@@ -1,0 +1,27 @@
+.contactcontainer{
+    text-align: center;
+    padding: 14px;
+    background-image: linear-gradient(rgb(23,53,65),rgb(76,32,19));
+    color: rgb(219, 226, 225);
+}
+
+#contacts{
+    margin-top: 3vh;
+}
+
+#contact-options{
+    margin-top: 4vh;
+    font-size: large;
+}
+
+#follow{
+    letter-spacing: 2px;
+    margin-bottom: 3vh;
+}
+
+.container-lastsection{
+    text-align: center;
+    margin-top: 3vh;
+    padding-bottom: 3vh;
+    letter-spacing: 2vw;
+}

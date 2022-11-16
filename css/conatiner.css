@@ -1,0 +1,42 @@
+.container{
+    padding: 12px;
+    background: linear-gradient(rgb(10,5,6),rgb(66, 37, 52));
+    position: absolute;
+    transform: translate(0%,-30%);
+    border-radius: 25% 30%;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(73, 138, 73);
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+
+.containers-grid1,
+.containers-grid2{
+    border: 4px solid  burlywood;
+    border-radius: 12px;
+    margin-right: 10%;
+    padding: 12px;
+    margin-left: 20%;
+    color: whitesmoke;
+}
+
+.containers-grid3{
+    border: 4px solid  burlywood;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-right: 27%;
+    padding: 12px;
+    margin-left: 27%;
+    color: whitesmoke;
+}

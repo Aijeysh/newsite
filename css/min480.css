@@ -1,0 +1,22 @@
+@media  screen and (max-width: 580px){
+    .body-cover{
+        background-image: url("https://images.pexels.com/photos/14452398/pexels-photo-14452398.jpeg?cs=srgb&dl=pexels-aijeysh-sharma-14452398.jpg&fm=jpg");
+        background-size: cover;
+        height: 90vh;
+        background-position: center;
+    }
+
+    /* Works Section */
+    .workscontainer{
+        background-image: linear-gradient(rgb(76,32,19),rgb(23,53,65));
+    }
+   .workgrid{
+    padding: 12px;
+   }
+   .workgrid1 img,
+   .workgrid2 img,
+   .wgrid3 img{
+    height: 40vh;
+    width: 80vw;
+   }
+}

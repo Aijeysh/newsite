@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* Header Section */
+
+.header {
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.header-options{
+    display: none;
+}
+.header i{
+    display: none;
+}
+
+
+/* Cover Section */
+
+.body-cover {
+    background-image: url("https://images.pexels.com/photos/14452398/pexels-photo-14452398.jpeg?cs=srgb&dl=pexels-aijeysh-sharma-14452398.jpg&fm=jpg");
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+
+}
+
+.body-cover-statement h2,
+.body-cover-statement h5 {
+    color: azure;
+    text-align: center;
+}
+
+.body-cover-statement h2 {
+    padding-top: 35vh;
+}
+
+
+
+@media screen and (min-width: 1060px) and (max-width:1400px){
+
+   /* Header Section */
+
+
+    .header a {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .header-options a {
+        padding: 14px;
+        color: white;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    .header-options a:hover {
+        color: rgb(197, 104, 104);
+        font-size: x-large;
+    }
+
+
+
+    .header-options {
+        display: block;
+        float: right;
+        padding: 14px 0;
+        margin-right: 50px;
+        margin-top: 20px;
+        font-size: larger;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        background-color: rgb(34, 31, 31);
+        border-radius: 45%;
+    }
+
+    /* Cover Section */
+ 
+   
+.body-cover-statement h2,
+.body-cover-statement h5 {
+    color: azure;
+    text-align: center;
+}
+
+
+    
+    /* Services Section */
+    .container{
+        padding: 12px;
+        background: linear-gradient(rgb(10,5,6),rgb(66, 37, 52));
+        position: absolute;
+        transform: translate(0%,-30%);
+        border-radius: 25% 30%;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        z-index: 1;
+    }
+    
+    .container h2{
+        text-align: center;
+        margin-bottom: 10px;
+        color: rgb(73, 138, 73);
+    }
+    
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+    
+    .containers-grid1,
+    .containers-grid2{
+        border: 4px solid  burlywood;
+        border-radius: 12px;
+        margin-right: 10%;
+        padding: 12px;
+        margin-left: 20%;
+        color: whitesmoke;
+    }
+    
+    .containers-grid3{
+        border: 4px solid  burlywood;
+        border-radius: 12px;
+        margin-top: 10px;
+        margin-right: 27%;
+        padding: 12px;
+        margin-left: 27%;
+        color: whitesmoke;
+    }
+
+    /* About Section */
+
+    .aboutcontainer{
+        position: relative;
+        margin-top: 40vh;
+        background-image: linear-gradient(rgb(23,53,65),rgb(76,32,19));
+        color: whitesmoke;
+        letter-spacing: 1px;
+        height: 70vh;
+        transform: translate(0%,-24%);
+        z-index: -1;
+    }
+    
+    .aboutcontainer h2{
+        text-align: center;
+        color: rgb(113, 201, 186);
+        padding-top: 30vh;
+    }
+    .aboutcontainer h5,
+    .aboutcontainer p{
+        padding: 3vh 2vw 0 2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: bold;
+    }
+
+    /* Works Section */
+
+
+    .workscontainer{
+        background-image: linear-gradient(rgb(76,32,19),rgb(23,53,65));
+        margin-top: -28vh;
+        z-index: 3;
+        color: whitesmoke;
+    }
+    #ourworks{
+        text-align: center;
+        color: rgb(73, 138, 73);
+        margin-bottom: 3vh;
+    }
+    
+    .worksgrid{
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+    }
+    
+    .wgrid1{
+        margin-left: 5vw;
+        margin-bottom: 2vh;
+    }
+    .wgrid2{
+        margin-left: 15vw;
+        margin-bottom: 2vh;
+    }
+    
+    .worksgrid img,
+    .wgrid3 img{
+        height: 40vh;
+        width: 40vw;
+    }
+    
+    .wgrid3{
+        margin-left: 33vw;
+        margin-bottom: 3vh;
+    }
+
+    .wgrid3 a,
+    #copyrightstreet{
+        text-decoration: none;
+        color: black;
+    }
+
+    /* Contacts Section */
+
+
+    .contactcontainer{
+        text-align: center;
+        padding: 14px;
+        background-image: linear-gradient(rgb(23,53,65),rgb(76,32,19));
+        color: rgb(219, 226, 225);
+        z-index: 3;
+    }
+    
+    #contacts{
+        margin-top: 3vh;
+    }
+    
+    #contact-options{
+        margin-top: 4vh;
+        font-size: large;
+    }
+    
+    #follow{
+        letter-spacing: 2px;
+        margin-bottom: 3vh;
+    }
+    
+    .container-lastsection{
+        text-align: center;
+        margin-top: 3vh;
+        padding-bottom: 3vh;
+        letter-spacing: 2vw;
+    }
+
+}

@@ -1,0 +1,20 @@
+
+
+.body-cover{
+    background-image: url("https://images.pexels.com/photos/14441344/pexels-photo-14441344.jpeg?cs=srgb&dl=pexels-aijeysh-sharma-14441344.jpg&fm=jpg");
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+
+}
+
+
+.body-cover-statement h2,
+.body-cover-statement h5{
+    color: azure;
+    text-align: center;
+}
+
+.body-cover-statement h2{
+    padding-top: 300px;
+}

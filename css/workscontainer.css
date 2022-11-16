@@ -1,0 +1,36 @@
+.workscontainer{
+    background-image: linear-gradient(rgb(76,32,19),rgb(23,53,65));
+    margin-top: -28vh;
+    z-index: 3;
+    color: whitesmoke;
+}
+.workscontainer h2{
+    text-align: center;
+    color: rgb(73, 138, 73);
+    margin-bottom: 3vh;
+}
+
+.worksgrid{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+}
+
+.wgrid1{
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+}
+.wgrid2{
+    margin-left: 10vw;
+    margin-bottom: 2vh;
+}
+
+.worksgrid img,
+.wgrid3 img{
+    height: 40vh;
+    width: 40vw;
+}
+
+.wgrid3{
+    margin-left: 27.5vw;
+    margin-bottom: 3vh;
+}
